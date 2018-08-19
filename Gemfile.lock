@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    cairo (1.15.13)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+    cairo-gobject (3.2.9)
+      cairo
+      glib2 (= 3.2.9)
+    coderay (1.1.2)
+    ffi (1.9.25)
+    gio2 (3.2.9)
+      glib2 (= 3.2.9)
+      gobject-introspection (= 3.2.9)
+    glib2 (3.2.9)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+    gobject-introspection (3.2.9)
+      glib2 (= 3.2.9)
+    method_source (0.9.0)
+    native-package-installer (1.0.6)
+    natto (1.1.1)
+      ffi (>= 1.9.0)
+    pkg-config (1.3.1)
+    poppler (3.2.9)
+      cairo-gobject (= 3.2.9)
+      gio2 (= 3.2.9)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-doc (0.13.4)
+      pry (~> 0.11)
+      yard (~> 0.9.11)
+    simstring_pure (1.1.2)
+    yard (0.9.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  natto
+  poppler
+  pry
+  pry-doc
+  simstring_pure
+
+BUNDLED WITH
+   1.16.3
